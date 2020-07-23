@@ -9,6 +9,8 @@ var students = [
 ];
 
 /*
+** Part 1
+*
 * One way of avoiding side effects is containing the damage by limiting the scope of the impure function
 * So now I don't need to worry about sortStudentsByName polluting the outer scope
 */
@@ -31,6 +33,8 @@ function getStudentsByName(students) {
 }
 
 /*
+** Part 2
+*
 * Another way is making an intermediate function that does the following steps
 * 1. Copy the outer value
 * 2. Perform some operation by calling the impure function and storing it's return value
@@ -53,12 +57,9 @@ function getStudentsByID(currentStudents) {
     return newStudents
 }
 
-
-// *************************************
-
-// modify/move this function
-
-// *************************************
+/*
+** Test cases
+*/
 
 var studentsTest1 = getStudentsByName(students);
 console.log(studentsTest1[0].name === "Ally");
