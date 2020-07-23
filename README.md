@@ -1,4 +1,5 @@
  # Functional light JavaScript course exercises
+> :warning: **Work in progress**
 
 ## Repo Structure
 
