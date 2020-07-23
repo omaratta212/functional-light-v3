@@ -5,12 +5,12 @@
 
 ```
 functional-light-v3
-└── <excersice-name>
+└── <excersice-dir>/
     └── README.md  // Exercise requirements and description
     └── ex.js  // Initial starter code
-    └── ex.fixed.js  // Exercise code fixed (By kyle Simpson)
-    └── ex.after.js  // Exercise code fixed (My Abrouch)
-    └── **  // Some exercises contains a library or html files
+    └── ex.fixed.js  // Exercise code fixed (By Kyle Simpson)
+    └── ex.after.js  // Exercise code fixed (My Abroach)
+    └── **  // Some exercises contain a library or Html files
     
 ```
 
