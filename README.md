@@ -18,3 +18,4 @@ functional-light-v3
 * [Functional light JavaScript course on frontend masters](https://frontendmasters.com/courses/functional-javascript-v3/)
 * [Functional-Light-JS book by kyle Simpson on GitHub](https://github.com/getify/Functional-Light-JS)
 * [Anjana Vakil — Functional Programming in JS: What? Why? How?](https://www.youtube.com/watch?v=qtsbZarFzm8)
+* [https://github.com/glebec/lambda-talk](Great eye-opener talk about lambda calculus and it's applications in FP)
