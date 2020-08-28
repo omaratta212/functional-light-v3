@@ -9,8 +9,11 @@ function coolIsPalindrome(str) {
 function isPalindrome(str) {
     const len = str.length
     if(len <= 1) return true
+
     const innerStr = str.substring(1, len-1)
-    return str[0] === str[len-1] && isPalindrome(innerStr)
+    const first = str[0]
+    const last = str[len-1]
+    return first === last  && isPalindrome(innerStr)
 }
 
 
