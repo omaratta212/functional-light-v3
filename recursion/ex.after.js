@@ -6,14 +6,15 @@ function coolIsPalindrome(str) {
     return rev === str
 }
 
-function isPalindrome(str) {
+function isPalindrome(str, accumulative) {
+    if(accumulative === false) return false
     const len = str.length
     if(len <= 1) return true
 
     const innerStr = str.substring(1, len-1)
     const first = str[0]
     const last = str[len-1]
-    return first === last  && isPalindrome(innerStr)
+    return isPalindrome(innerStr, first === last)
 }
 
 
